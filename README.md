@@ -10,12 +10,12 @@ Esercizi per il corso di Informatica III anno ITLC
 - [Esercizio 03](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio03) (Massimo di due interi)
 ## Intervallo [Esercizio 04](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04)
 Nell'esercizio viene utilizzata una tecnica cosiddetta swap ovvero lo scambio del valore tra due variabili (a e b) utilizzando una terza variabile (c) di appoggio:
-- il valore della variabile a viene salvata temporaneamente nella variabile c
-- in **a** viene trasferito il valore di **b**
-- infine in **b** quello di **c** che conteneva il valore di **a**
 ```cpp
     if (a > b)
     {
         c = a; a = b; b = c;
     }
 ```
+- il valore della variabile a viene salvata temporaneamente nella variabile c
+- in **a** viene trasferito il valore di **b**
+- infine in **b** quello di **c** che conteneva il valore di **a**
