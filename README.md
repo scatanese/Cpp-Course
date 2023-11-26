@@ -7,7 +7,7 @@ c++ coding for beginners
 - [Esercizio 02](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio02) (Tasse iscrizione)
 - [Esercizio 03](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio03) (Massimo di due interi)
 ## Intervallo
-[Esercizio 04](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04)
+- [Esercizio 04](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04)
 Nell'esercizio viene utilizzata una tecnica cosiddetta swap ovvero lo scambio del valore tra due variabili (a e b) utilizzando una terza variabile (c) di appoggio:
 ```cpp
     if (a > b)
