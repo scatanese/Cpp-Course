@@ -1,8 +1,6 @@
 # Cpp-Course
 c++ coding for beginners
 
-Esercizi per il corso di Informatica III anno ITLC
-
 ## Hello World!
 - [Esercizio 01](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio01)
 ## Selezione
