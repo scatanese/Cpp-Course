@@ -9,9 +9,9 @@ Esercizi per il corso di Informatica III anno ITLC
 - [Esercizio 02](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio02) (Tasse iscrizione)
 - [Esercizio 03](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio03) (Massimo di due interi)
 - [Esercizio 04](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04) (Intervallo)
-'''
+```cpp
     if (a > b)
     {
         c = a; a = b; b = c;
     }
-'''
+```
