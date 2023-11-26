@@ -9,3 +9,6 @@ sapendo che tale importo prevede una quota fissa di € 18,00 e una quota aggiun
 se la media dei voti è inferiore a 7, di € 17,50 se la media dei voti è compresa tra 7 e 8 e nessuna 
 quota aggiuntiva se la media dei voti è superiore a 8.
 Nel caso in cui il reddito familiare sia inferiore a € 16.000,00, l'importo finale è ridotto del 40%.
+
+## Alcuni riferimenti utili
+[Link Text](https://github.com/TheAlgorithms/C)
