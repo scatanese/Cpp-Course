@@ -12,3 +12,4 @@ Nel caso in cui il reddito familiare sia inferiore a € 16.000,00, l'importo fi
 
 ## Alcuni riferimenti utili
 [The Algorithms - C](https://github.com/TheAlgorithms/C)
+[neetcode.io](https://neetcode.io/practice)
