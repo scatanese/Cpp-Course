@@ -5,7 +5,7 @@
 il simbolo # precede un comando per il preprocessore
 include è un comando per il preprocessore che copia il contenuto
 del file specificato nel codice sorgente. iostream fa parte della 
-libreria standard di C++, e contiene il per la visualizzazione e 
+libreria standard di C++, e contiene il codice per la visualizzazione e 
 l'inserimento del testo.
 */
 #include <iostream>
