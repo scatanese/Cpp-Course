@@ -11,4 +11,4 @@ quota aggiuntiva se la media dei voti è superiore a 8.
 Nel caso in cui il reddito familiare sia inferiore a € 16.000,00, l'importo finale è ridotto del 40%.
 
 ## Alcuni riferimenti utili
-[Link Text](https://github.com/TheAlgorithms/C)
+[The Algorithms - C](https://github.com/TheAlgorithms/C)
