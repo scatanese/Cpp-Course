@@ -4,5 +4,6 @@ c++ coding for beginners
 Esercizi per il corso di Informatica III anno ITLC
 
 ## Iscrizione
-(Algoritmo di Selezione)
+[Esercizio 01]()
+[Esercizio 02]() (Algoritmo di Selezione)
 
