@@ -2,9 +2,9 @@
 //
 
 /*
-il simbolo # precede un comando per il preprocessore
-include è un comando per il preprocessore che copia il contenuto
-del file specificato nel codice sorgente. iostream fa parte della 
+(#) precede un comando per il preprocessore
+(include) Ã¨ un comando per il preprocessore che copia il contenuto
+del file specificato nel codice sorgente. <iostream> fa parte della 
 libreria standard di C++, e contiene il codice per la visualizzazione e 
 l'inserimento del testo.
 */
@@ -27,8 +27,8 @@ int main()
 
     /*
     Il valore restituito dalla funzione main() segnala al sistema operativo che l'esecuzione
-    si è conclusa senza errori.Di default, un programma C++ restituisce sempre 0 se l'istruzione 
-    return non è presente.
+    si Ã¨ conclusa senza errori.Di default, un programma C++ restituisce sempre 0 se l'istruzione 
+    return non Ã¨ presente.
     */
     return 0;
 }
