@@ -9,7 +9,7 @@ c++ coding for beginners
 ## Intervallo
 - [Esercizio 04](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04)
 
-Nell'esercizio viene utilizzata il cosiddetto swap ovvero lo scambio del valore tra due variabili (a e b) utilizzando una terza variabile (c) di appoggio:
+Nell'esercizio viene utilizzato il cosiddetto swap ovvero lo scambio del valore tra due variabili (a e b) utilizzando una terza variabile (c) di appoggio:
 ```cpp
     if (a > b)
     {
