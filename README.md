@@ -18,6 +18,9 @@ if (a > b) {
 - il valore della variabile a viene salvata temporaneamente nella variabile c
 - in **a** viene trasferito il valore di **b**
 - infine in **b** quello di **c** che conteneva il valore di **a**
+
+![nome_immagine](C:\Users\s.catanese\Pictures\Screenshots\swap1.png)
+
 ## Iterazione - somma di N numeri
 - [Esercizio05](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05)
 
