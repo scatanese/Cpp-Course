@@ -24,15 +24,15 @@ Nell'esercizio viene utilizzato il cosiddetto swap ovvero lo scambio del valore 
 
 > [!TIP]
 > Per l'iterazione il programma utilizza un ciclo `while(<condizione>) {<istruzione> | <blocco di istruzioni>}`
-> ```cpp
-    while (i < n) {
+```cpp
+while (i < n) {
     // istruzioni
     i = i + 1;
     }
-    ```
-> che può essere sostituito con un ciclo `for(<inizializzazione>; <condizione>; <espressione_iterativa>) {<istruzione> | <blocco di istruzioni>}`
-> ```cpp
-    for (i=0; i<n; i++) {
+```
+che può essere sostituito con un ciclo `for(<inizializzazione>; <condizione>; <espressione_iterativa>) {<istruzione> | <blocco di istruzioni>}`
+```cpp
+for (i=0; i<n; i++) {
     // istruzioni
     }
 ```
