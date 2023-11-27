@@ -26,13 +26,13 @@ Per l'iterazione il programma utilizza un ciclo `while`
 while (i < n) {
     // istruzioni
     i = i + 1;
-    }
+}
 ```
 > [!TIP]
 > In questo caso il ciclo while può essere sostituito da un ciclo `for`
 ```cpp
 for (i=0; i<n; i++) {
     // istruzioni
-    }
+}
 ```
 
