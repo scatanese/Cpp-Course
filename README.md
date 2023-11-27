@@ -22,7 +22,8 @@ Nell'esercizio viene utilizzato il cosiddetto swap ovvero lo scambio del valore 
 ## Iterazione - somma di N numeri
 - [Esercizio05](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05)
 
-Per l'iterazione il programma utilizza un ciclo `while(<condizione>) {<istruzione> | <blocco di istruzioni>}`
+> [!TIP]
+> Per l'iterazione il programma utilizza un ciclo `while(<condizione>) {<istruzione> | <blocco di istruzioni>}`
 ```cpp
 while (i < n) {
     // istruzioni
