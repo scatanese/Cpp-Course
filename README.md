@@ -20,9 +20,10 @@ if (a > b) {
 - infine in **b** quello di **c** che conteneva il valore di **a**
 
 ![swap1](https://github.com/scatanese/Cpp-Course/assets/3177485/54dcd5c2-7350-48d2-8382-9fe3ee2c48e2)
-![swap2](https://github.com/scatanese/Cpp-Course/assets/3177485/70ea2171-3807-47b3-b857-96cd729b0c46)
-![swap3](https://github.com/scatanese/Cpp-Course/assets/3177485/c8aa34e2-57d5-4c89-87ee-911a0c6b8fea)
-![swap4](https://github.com/scatanese/Cpp-Course/assets/3177485/422e81ea-1267-4407-ae88-142ad9f57894)
+![swap2](https://github.com/scatanese/Cpp-Course/assets/3177485/556afeda-fcc3-4edb-8ae2-1a66c28148b2)
+![swap4](https://github.com/scatanese/Cpp-Course/assets/3177485/84a2f1aa-8d24-40d1-99e9-ef9b42964474)
+![swap3](https://github.com/scatanese/Cpp-Course/assets/3177485/2e819bee-946e-4e60-a427-41ed0eea8048)
+
 
 ## Iterazione - somma di N numeri
 - [Esercizio05](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05)
