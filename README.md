@@ -19,7 +19,7 @@ if (a > b) {
 - in **a** viene trasferito il valore di **b**
 - infine in **b** quello di **c** che conteneva il valore di **a**
 
-![nome_immagine](C:/Users/s.catanese/Pictures/Screenshots/swap1.png)
+![nome_immagine](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04/swap1.png)
 
 ## Iterazione - somma di N numeri
 - [Esercizio05](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05)
