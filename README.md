@@ -19,7 +19,7 @@ if (a > b) {
 - in **a** viene trasferito il valore di **b**
 - infine in **b** quello di **c** che conteneva il valore di **a**
 
-![swap1](https://github.com/scatanese/Cpp-Course/assets/3177485/aa31a864-e320-4409-969f-15a8363496a8)
+![swap1](https://github.com/scatanese/Cpp-Course/assets/3177485/54dcd5c2-7350-48d2-8382-9fe3ee2c48e2)
 ![swap2](https://github.com/scatanese/Cpp-Course/assets/3177485/70ea2171-3807-47b3-b857-96cd729b0c46)
 ![swap3](https://github.com/scatanese/Cpp-Course/assets/3177485/c8aa34e2-57d5-4c89-87ee-911a0c6b8fea)
 ![swap4](https://github.com/scatanese/Cpp-Course/assets/3177485/422e81ea-1267-4407-ae88-142ad9f57894)
