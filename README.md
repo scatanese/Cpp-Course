@@ -29,7 +29,7 @@ while (i < n) {
     }
 ```
 > [!TIP]
-> `rgb(9, 105, 218) Il ciclo` while in questo caso può essere sostituito da un ciclo `for(<inizializzazione>; <condizione>; <espressione_iterativa>) {<istruzione> | <blocco di istruzioni>}`
+> `rgb(9, 105, 218)` while in questo caso può essere sostituito da un ciclo `for(<inizializzazione>; <condizione>; <espressione_iterativa>) {<istruzione> | <blocco di istruzioni>}`
 ```cpp
 for (i=0; i<n; i++) {
     // istruzioni
