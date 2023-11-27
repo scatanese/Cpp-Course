@@ -20,4 +20,12 @@ Nell'esercizio viene utilizzato il cosiddetto swap ovvero lo scambio del valore 
 - in **a** viene trasferito il valore di **b**
 - infine in **b** quello di **c** che conteneva il valore di **a**
 ## Iterazione - somma di N numeri
-- [Esercizio05]
+- [Esercizio05] (https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05)
+Per l'iterazione il programma utilizza l'istruzione while
+```cpp
+    if (a > b)
+    {
+        c = a; a = b; b = c;
+    }
+```
+
