@@ -30,7 +30,7 @@ while (i < n) {
     }
 ```
 > [!TIP]
-> che può essere sostituito con un ciclo `for(<inizializzazione>; <condizione>; <espressione_iterativa>) {<istruzione> | <blocco di istruzioni>}`
+> Il ciclo while in questo caso può essere sostituito da un ciclo `for(<inizializzazione>; <condizione>; <espressione_iterativa>) {<istruzione> | <blocco di istruzioni>}`
 ```cpp
 for (i=0; i<n; i++) {
     // istruzioni
