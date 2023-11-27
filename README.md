@@ -13,7 +13,7 @@ Nell'esercizio viene utilizzato il cosiddetto swap ovvero lo scambio del valore 
 ```cpp
 if (a > b){
         c = a; a = b; b = c;
-    }
+}
 ```
 - il valore della variabile a viene salvata temporaneamente nella variabile c
 - in **a** viene trasferito il valore di **b**
