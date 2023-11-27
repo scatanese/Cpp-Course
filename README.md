@@ -19,11 +19,10 @@ if (a > b) {
 - in **a** viene trasferito il valore di **b**
 - infine in **b** quello di **c** che conteneva il valore di **a**
 
-![swap1](https://github.com/scatanese/Cpp-Course/assets/3177485/54dcd5c2-7350-48d2-8382-9fe3ee2c48e2)
-![swap2](https://github.com/scatanese/Cpp-Course/assets/3177485/556afeda-fcc3-4edb-8ae2-1a66c28148b2)
-![swap4](https://github.com/scatanese/Cpp-Course/assets/3177485/84a2f1aa-8d24-40d1-99e9-ef9b42964474)
-![swap3](https://github.com/scatanese/Cpp-Course/assets/3177485/2e819bee-946e-4e60-a427-41ed0eea8048)
-
+![swap1](https://github.com/scatanese/Cpp-Course/assets/3177485/b6f8bfa7-de9c-4335-8e99-a9497e590e79)
+![swap2](https://github.com/scatanese/Cpp-Course/assets/3177485/6a16c5af-db26-4615-b567-ef978cdc95de)
+![swap3](https://github.com/scatanese/Cpp-Course/assets/3177485/69e0a034-47d0-4eea-a741-a9bb267da714)
+![swap4](https://github.com/scatanese/Cpp-Course/assets/3177485/ead55369-eb5f-416c-9f93-a7aefead1257)
 
 ## Iterazione - somma di N numeri
 - [Esercizio05](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05)
