@@ -21,7 +21,7 @@ if (a > b){
 ## Iterazione - somma di N numeri
 - [Esercizio05](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05)
 
-Per l'iterazione il programma utilizza un ciclo `while()`
+Per l'iterazione il programma utilizza un ciclo `while`
 ```cpp
 while (i < n) {
     // istruzioni
@@ -29,7 +29,7 @@ while (i < n) {
     }
 ```
 > [!TIP]
-> In questo caso il ciclo while può essere sostituito da un ciclo `for()`
+> In questo caso il ciclo while può essere sostituito da un ciclo `for`
 ```cpp
 for (i=0; i<n; i++) {
     // istruzioni
