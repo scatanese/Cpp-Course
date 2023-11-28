@@ -57,7 +57,7 @@ c++ coding for beginners
     i = i + 1;
   }
   ```
-  > [!TIP]
+  > :bulb: **Tip:**
   > In questo caso il ciclo while può essere sostituito da un ciclo `for`
   ```cpp
   for (i=0; i<n; i++) {
