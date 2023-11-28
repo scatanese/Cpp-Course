@@ -1,6 +1,6 @@
 # Cpp-Course
 c++ coding for beginners
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+
 ## Hello World!
 - [Esercizio 01](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio01)
 ## Selezione
