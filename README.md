@@ -29,7 +29,9 @@ c++ coding for beginners
   > La formula per aggiungere alla tariffa del biglietto la maggiorazione del 2% per ogni Kg in eccesso al 
   perso di 20 Kg del bagaglio è stata ottenuta come segue: 
   ```cpp
+  { ...
   c = t + ((t*0.02) * (p - 20));
+  }
   ```
   dove `t` è la tariffa, `p` il peso e `c` il costo complessivo del biglietto.
 
@@ -44,7 +46,9 @@ c++ coding for beginners
 
   Potremo scrivere quindi:
   ```cpp
+  { ...
   c = t*(0.6 - 0.02*p));
+  }
   ```
 
 ## Iterazione - somma di N numeri
