@@ -24,8 +24,11 @@ if (a > b) {
 > ![swap3](https://github.com/scatanese/Cpp-Course/assets/3177485/69e0a034-47d0-4eea-a741-a9bb267da714)
 > ![swap4](https://github.com/scatanese/Cpp-Course/assets/3177485/ead55369-eb5f-416c-9f93-a7aefead1257)
 
+- [Esercizio 05](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05) (tariffa bagaglio aereo)
+
+  
 ## Iterazione - somma di N numeri
-- [Esercizio05](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05)
+- [Esercizio06](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio06)
 
 Per l'iterazione il programma utilizza un ciclo `while`
 ```cpp
