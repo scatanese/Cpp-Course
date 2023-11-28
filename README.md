@@ -32,7 +32,7 @@ perso di 20 Kg del bagaglio è stata ottenuta come segue:
 ```cpp
 c = t + ((t*0.02f) * (p - 20));
 ```
-dove t è la tariffa, p il peso e c il costo complessivo del biglietto.
+dove `t` è la tariffa, `p` il peso e `c` il costo complessivo del biglietto.
 
 L'espressione a destra dell'assegnazione può essere modificata, dopo qualche passaggio, come segue:
 > $t+(0.02t*(p-20))$
