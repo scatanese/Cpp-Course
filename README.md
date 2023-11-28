@@ -38,7 +38,6 @@ c++ coding for beginners
   c = t + (0.02*t * (p-20))
   c = t + (0.02*t*p - 0.4*t)
   c = t * (1 + 0.02*p - 0.4)
-  c = t * (0.6 - 0.02*p)
   ```
   ottenendo la equivalente:
   ```cpp
