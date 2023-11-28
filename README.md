@@ -14,15 +14,11 @@ c++ coding for beginners
     c = a; a = b; b = c;
   }
   ```
+  > :memo: **Note:**
   - il valore della variabile `a` viene salvata temporaneamente nella variabile `c`
   - in `a` viene trasferito il valore di `b`
   - infine in `b` quello di `c` che conteneva il valore di `a`
-
-  > :memo: **Note:**
-  > - il valore della variabile `a` viene salvata temporaneamente nella variabile `c`
-  > - in `a` viene trasferito il valore di `b`
-  > - infine in `b` quello di `c` che conteneva il valore di `a`
-  >   
+  
   > ![swap1](https://github.com/scatanese/Cpp-Course/assets/3177485/b6f8bfa7-de9c-4335-8e99-a9497e590e79)
   > ![swap2](https://github.com/scatanese/Cpp-Course/assets/3177485/6a16c5af-db26-4615-b567-ef978cdc95de)
   > ![swap3](https://github.com/scatanese/Cpp-Course/assets/3177485/69e0a034-47d0-4eea-a741-a9bb267da714)
