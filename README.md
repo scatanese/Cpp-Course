@@ -6,7 +6,7 @@ c++ coding for beginners
 ## Selezione
 - [Esercizio 02](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio02) (Tasse iscrizione)
 - [Esercizio 03](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio03) (Massimo di due interi)
-- [Esercizio 04](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04) (numero compreso in un intervallo)
+- [Esercizio 04](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04) (Numero compreso in un intervallo)
 
   > :memo: **Nota:**
   > Nell'esercizio 04 viene effettuato il cosiddetto `swap` ovvero lo scambio del valore tra due variabili `a` e `b` utilizzando una terza variabile `c` di appoggio:
@@ -24,7 +24,7 @@ c++ coding for beginners
   > ![swap3](https://github.com/scatanese/Cpp-Course/assets/3177485/69e0a034-47d0-4eea-a741-a9bb267da714)
   > ![swap4](https://github.com/scatanese/Cpp-Course/assets/3177485/ead55369-eb5f-416c-9f93-a7aefead1257)
 
-- [Esercizio 05](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05) (tariffa bagaglio aereo)
+- [Esercizio 05](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05) (Tariffa bagaglio aereo)
 
   La formula per aggiungere alla tariffa del biglietto la maggiorazione del 2% per ogni Kg del bagaglio
   eccedente il peso di 20 Kg è stata ottenuta come segue: 
@@ -45,7 +45,7 @@ c++ coding for beginners
   > c = t * (0.6 - 0.02*p)
   > ```
 ## Iterazione
-- [Esercizio06](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio06) (somma di N numeri)
+- [Esercizio06](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio06) (Somma di N numeri)
 
   Per l'iterazione degli `n` inserimenti il programma utilizza un ciclo `while`
   ```cpp
