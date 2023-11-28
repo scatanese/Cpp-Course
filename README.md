@@ -34,12 +34,12 @@ c++ coding for beginners
   dove `t` è la tariffa, `p` il peso e `c` il costo complessivo del biglietto.
 
   > :bulb: **Tip:** L'espressione di assegnazione può essere modificata come segue:
-  > ```cpp
+  ```cpp
   > c = t + (0.02*t * (p-20))
   > c = t + (0.02*t*p - 0.4*t)
   > c = t * (1 + 0.02*p - 0.4)
   > c = t * (0.6 - 0.02*p)
-  > ```
+  ```
 
 ## Iterazione
 - [Esercizio06](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio06) (somma di N numeri)
