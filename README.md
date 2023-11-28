@@ -47,8 +47,8 @@ c++ coding for beginners
   c = t*(0.6f - 0.02f*p));
   ```
 
-## Iterazione - somma di N numeri
-- [Esercizio06](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio06)
+## Iterazione
+- [Esercizio06](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio06) (somma di N numeri)
 
   Per l'iterazione il programma utilizza un ciclo `while`
   ```cpp
