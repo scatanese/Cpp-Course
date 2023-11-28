@@ -36,9 +36,13 @@ dove t è la tariffa, p il peso e c il costo complessivo del biglietto.
 
 L'espressione a destra dell'assegnazione può essere modificata, dopo qualche passaggio, come segue:
 > $t+0.02t*(p-20)$
+> 
 > $= t+ 0.02tp-0.4t$
+>
 > $=t(1+0.02p-0.4)$
+>
 > $=t(0.6-0.02p)$
+
 Potremo scrivere quindi:
 ```cpp
 c = t*(0.6f - 0.02f*p));
