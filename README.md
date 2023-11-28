@@ -9,15 +9,14 @@ c++ coding for beginners
 - [Esercizio 04](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04) (numero compreso in un intervallo)
 
   > :bulb: **Tip:** Nell'esercizio 04 viene effettuato il cosiddetto `swap` ovvero lo scambio del valore tra due variabili `a` e `b` utilizzando una terza variabile `c` di appoggio:
-    ```cpp
-    if (a > b) {
-      c = a; a = b; b = c;
-    }
-    ```
-  > :memo: **Note:** descrizione della sequenza di swap
-    - il valore della variabile `a` viene salvata temporaneamente nella variabile `c`
-    - alla variabile `a` viene assegnato il valore di `b`
-    - infine a `b` viene assegnato il valore di `c` che conteneva il valore di `a` (punto 1)
+  >  ```cpp
+  >  if (a > b) {
+  >    c = a; a = b; b = c;
+  >  }
+  >  ```
+  > - il valore della variabile `a` viene salvata temporaneamente nella variabile `c`
+  > - alla variabile `a` viene assegnato il valore di `b`
+  > - infine a `b` viene assegnato il valore di `c` che conteneva il valore di `a` (punto 1)
   
   ![swap1](https://github.com/scatanese/Cpp-Course/assets/3177485/b6f8bfa7-de9c-4335-8e99-a9497e590e79)
   ![swap2](https://github.com/scatanese/Cpp-Course/assets/3177485/6a16c5af-db26-4615-b567-ef978cdc95de)
