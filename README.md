@@ -27,7 +27,7 @@ c++ coding for beginners
 
   > [!TIP]
   > La formula per aggiungere alla tariffa del biglietto la maggiorazione del 2% per ogni Kg in eccesso al 
-  perso di 20 Kg del bagaglio è stata ottenuta come segue: 
+  peso di 20 Kg del bagaglio è stata ottenuta come segue: 
   ```cpp
   c = t + ((t*0.02f) * (p - 20f));
   ```
