@@ -14,7 +14,7 @@ c++ coding for beginners
     c = a; a = b; b = c;
   }
   ```
-  > :memo: **Note:**
+  > :memo: **Note:** descrizione della sequenza di swap
     - il valore della variabile `a` viene salvata temporaneamente nella variabile `c`
     - alla variabile `a` viene assegnato il valore di `b`
     - infine a `b` viene assegnato il valore di `c` che conteneva il valore di `a` (punto 1)
