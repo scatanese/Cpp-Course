@@ -54,8 +54,8 @@ c++ coding for beginners
   ```
   > :bulb: **Tip:**
   > Il ciclo `while` può essere sostituito da un ciclo `for`
-  ```cpp
-  for (i=0; i<n; i++) {
-    // istruzioni
-  }
-  ```
+  > ```cpp
+  > for (i=0; i<n; i++) {
+  >   // istruzioni
+  > }
+  > ```
