@@ -33,7 +33,7 @@ c++ coding for beginners
   ```
   dove `t` è la tariffa, `p` il peso e `c` il costo complessivo del biglietto.
 
-  > :bulb: **Tip:** L'espressione di assegnazione può essere modificata come segue:
+  > :bulb: **Tip:** L'espressione di assegnazione può essere modificata come segue ```cpp c = t * (0.6 - 0.02*p):```
   > ```cpp
   > c = t + (0.02*t * (p-20))
   > c = t + (0.02*t*p - 0.4*t)
