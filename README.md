@@ -51,7 +51,7 @@ c++ coding for beginners
 ## Iterazione
 - [Esercizio06](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio06) (somma di N numeri)
 
-  Per l'iterazione il programma utilizza un ciclo `while`
+  Per l'iterazione degli `n` inserimenti il programma utilizza un ciclo `while`
   ```cpp
   while (i < n) {
     // istruzioni
