@@ -33,13 +33,13 @@ c = t + ((t*0.02f) * (p - 20));
 ```
 L'espressione a destra dell'assegnazione può essere modificata come segue:
 
-$t=t+0.02t*(p-20)$
+$t+0.02t*(p-20)$
 
 $= t+ 0.02tp-0.4t$
 
 $=t(1+0.02p-0.4)$
 
-$c=t(0.6-0.02p)%
+$=t(0.6-0.02p)$
 
 Quindi:
 ```cpp
