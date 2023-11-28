@@ -25,7 +25,7 @@ c++ coding for beginners
 
 - [Esercizio 05](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05) (tariffa bagaglio aereo)
 
-  > [!TIP]
+  > :bulb: **Tip:**
   > La formula per aggiungere alla tariffa del biglietto la maggiorazione del 2% per ogni Kg in eccesso al 
   peso di 20 Kg del bagaglio è stata ottenuta come segue: 
   ```cpp
