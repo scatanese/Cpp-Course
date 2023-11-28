@@ -8,7 +8,7 @@ c++ coding for beginners
 - [Esercizio 03](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio03) (Massimo di due interi)
 - [Esercizio 04](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04) (numero compreso in un intervallo)
 
-  Nell'esercizio 04 viene utilizzato il cosiddetto swap ovvero lo scambio del valore tra due variabili (a e b) utilizzando una terza        variabile (c) di appoggio:
+  Nell'esercizio 04 viene utilizzato il cosiddetto swap ovvero lo scambio del valore tra due variabili (a e b) utilizzando una terza variabile (c) di appoggio:
   ```cpp
   if (a > b) {
     c = a; a = b; b = c;
@@ -26,7 +26,7 @@ c++ coding for beginners
 - [Esercizio 05](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05) (tariffa bagaglio aereo)
 
   > :bulb: **Tip:**
-  > La formula per aggiungere alla tariffa del biglietto la maggiorazione del 2% per ogni Kg in eccesso al 
+  > La formula per aggiungere alla tariffa del biglietto la maggiorazione del 2% per ogni Kg eccedente il 
   peso di 20 Kg del bagaglio è stata ottenuta come segue: 
   ```cpp
   c = t + ((t*0.02f) * (p - 20f));
