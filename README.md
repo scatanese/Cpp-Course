@@ -8,6 +8,9 @@ c++ coding for beginners
 - [Esercizio 03](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio03) (Massimo di due interi)
 - [Esercizio 04](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04) (Numero compreso in un intervallo)
 
+> **Note**<br>
+Your note text here
+
   > :memo: **Nota:**
   > Nell'esercizio 04 viene effettuato il cosiddetto `swap` ovvero lo scambio del valore tra due variabili `a` e `b` utilizzando una terza variabile `c` di appoggio:
   > ```cpp
