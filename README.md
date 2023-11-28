@@ -9,7 +9,6 @@ c++ coding for beginners
 - [Esercizio 04](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04) (numero compreso in un intervallo)
 
   > :memo: **Nota:**
-  > 
   > Nell'esercizio 04 viene effettuato il cosiddetto `swap` ovvero lo scambio del valore tra due variabili `a` e `b` utilizzando una terza variabile `c` di appoggio:
   > ```cpp
   > if (a > b) {
@@ -35,7 +34,6 @@ c++ coding for beginners
   dove `t` è la tariffa, `p` il peso e `c` il costo complessivo del biglietto.
 
   > :bulb: **Tip:**
-  >
   > L'espressione di assegnazione può essere modificata attraverso alcuni passaggi algebrici 
   > ```cpp
   > c = t + (0.02*t * (p-20))
