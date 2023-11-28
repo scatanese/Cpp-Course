@@ -10,9 +10,9 @@ c++ coding for beginners
 
   Nell'esercizio 04 viene utilizzato il cosiddetto swap ovvero lo scambio del valore tra due variabili (a e b) utilizzando una terza        variabile (c) di appoggio:
   ```cpp
-        if (a > b) {
-          c = a; a = b; b = c;
-        }
+  if (a > b) {
+    c = a; a = b; b = c;
+  }
   ```
   - il valore della variabile `a` viene salvata temporaneamente nella variabile `c`
   - in `a` viene trasferito il valore di `b`
