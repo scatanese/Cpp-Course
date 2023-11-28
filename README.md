@@ -26,12 +26,14 @@ if (a > b) {
 
 - [Esercizio 05](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio05) (tariffa bagaglio aereo)
 
-La formula per aggiungere alla tariffa del biglietto nel caso in cui il perso del bagaglio supera i venti chilogrammi
-è stata calcolata come segue, ove t è la tariffa, p il peso e c il costo complessivo del biglietto: 
+La formula per aggiungere alla tariffa del biglietto la maggiorazione del 2% per ogni Kg in eccesso al 
+perso di 20 Kg del bagaglio è stata ottenuta come segue: 
 ```cpp
 c = t + ((t*0.02f) * (p - 20));
 ```
-L'espressione a destra dell'assegnazione può essere modificata come segue:
+dove t è la tariffa, p il peso e c il costo complessivo del biglietto.
+
+L'espressione a destra dell'assegnazione può essere modificata, dopo qualche passaggio, come segue:
 
 $t+0.02t*(p-20)$
 
@@ -41,7 +43,7 @@ $=t(1+0.02p-0.4)$
 
 $=t(0.6-0.02p)$
 
-Quindi:
+Ottenendo quindi lo stesso risultato con l'istruzione:
 ```cpp
 c = t*(0.6f - 0.02f*p));
 ```
