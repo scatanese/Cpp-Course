@@ -6,8 +6,7 @@ c++ coding for beginners
 ## Selezione
 - [Esercizio 02](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio02) (Tasse iscrizione)
 - [Esercizio 03](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio03) (Massimo di due interi)
-## Selezione - numero compreso in un intervallo
-- [Esercizio 04](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04)
+- [Esercizio 04](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio04) (numero compreso in un intervallo)
 
 Nell'esercizio viene utilizzato il cosiddetto swap ovvero lo scambio del valore tra due variabili (a e b) utilizzando una terza variabile (c) di appoggio:
 ```cpp
