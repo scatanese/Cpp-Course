@@ -18,6 +18,10 @@ c++ coding for beginners
   > - il valore della variabile `a` viene salvata temporaneamente nella variabile `c`
   > - alla variabile `a` viene assegnato il valore di `b`
   > - infine a `b` viene assegnato il valore di `c` che conteneva il valore di `a`
+
+  > ```cpp
+  c = a;
+  > ```
   `a` = 11, `b`=3
   `c` = `a` = 11
   `a` = `b` = 3
