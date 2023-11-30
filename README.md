@@ -17,7 +17,7 @@ c++ coding for beginners
   > ```
   
   Esempio:  `a` = 11, `b`=3
-  > - `c` = a: il valore della variabile `a` viene salvato temporaneamente nella variabile `c`, quindi `c` conterrà 11
+  > - `c = a`: il valore della variabile `a` viene salvato temporaneamente nella variabile `c`, quindi `c` conterrà 11
   > - `a` = `b`:alla variabile `a` viene assegnato il valore di `b`, quindi `a` conterrà 3
   > - `b` = `c`: infine a `b` viene assegnato il valore di `c` che conteneva il valore di `a`, quindi `b` conterrà 11
 
