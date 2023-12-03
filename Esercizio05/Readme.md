@@ -1,4 +1,6 @@
 ## Tariffa bagaglio aereo
+Su alcuni voli aerei, i bagagli fino a 20 Kg non pagano, oltre questo limite si deve pagare, 
+per ogni Kg in più, il 2% della tariffa del biglietto aereo. Stampa il prezzo totale del biglietto.
 
 La formula per aggiungere alla tariffa del biglietto la maggiorazione del 2% per ogni Kg del bagaglio
 eccedente il peso di 20 Kg è stata ottenuta come segue: 
