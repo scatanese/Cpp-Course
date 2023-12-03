@@ -6,8 +6,7 @@ if (a > b) {
   c = a; a = b; b = c;
 }
 ```
-  
-Esempio:  `a` = 11, `b`=3
+
 - il valore della variabile `a` viene salvato temporaneamente nella variabile `c`
 - alla variabile `a` viene assegnato il valore di `b`
 - infine a `b` viene assegnato il valore di `c` che conteneva il valore di `a`
