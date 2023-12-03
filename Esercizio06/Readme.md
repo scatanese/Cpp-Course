@@ -1,3 +1,5 @@
+## Somma di N numeri interi
+
 Per l'iterazione degli `n` inserimenti il programma utilizza un ciclo `while`
 ```cpp
 while (i < n) {
