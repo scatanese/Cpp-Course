@@ -1,3 +1,5 @@
+## Dati due numeri interi determina se un terzo numero è compreso nell'intervallo.
+
 Nell'esercizio 04 viene effettuato il cosiddetto `swap` ovvero lo scambio del valore tra due variabili `a` e `b` utilizzando una terza variabile `c` di appoggio:
 ```cpp
 if (a > b) {
