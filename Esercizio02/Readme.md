@@ -1,4 +1,4 @@
-Algoritmo di Selezione
+## Algoritmo di Selezione
 Data la media di uno studente, calcolare l'importo da versare per l'iscrizione all'anno successivo 
 sapendo che tale importo prevede una quota fissa di € 18,00 e una quota aggiuntiva di € 25,00 
 se la media dei voti è inferiore a 7, di € 17,50 se la media dei voti è compresa tra 7 e 8 e nessuna 
