@@ -11,4 +11,5 @@ c++ coding for beginners
 ## Iterazione
 - [Esercizio06](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio06) Somma di N numeri
 
+## Altri
 - [Esercizio07](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio07) Pari o dispari
