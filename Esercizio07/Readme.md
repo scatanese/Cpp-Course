@@ -1,6 +1,6 @@
 ## Pari o dispari
 
-Per verificare se un numero è pari o dispari, nel linguaggio C++ utilizziamo l'operatore %.
+Per verificare se un numero è pari o dispari, nel linguaggio C++ utilizziamo l'operatore % (modulo).
 
 > a%b
 
@@ -14,4 +14,3 @@ Quindi, per verificare se un numero è pari o dispari basterà calcolare il rest
 > a%2
 
 Se (a%2)==0 il numero è pari altrimenti sarà dispari.
-
