@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Salvo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-12 05:53:30 "/>
+        <attribute name="created" value="U2Fsdm87REVTS1RPUC1LT0pIVTY3OzIwMjMtMTItMTI7IjA1OjE0OjA5ICI7Mjc4MQ=="/>
+        <attribute name="edited" value="U2Fsdm87REVTS1RPUC1LT0pIVTY3OzIwMjMtMTItMTI7IjA1OjUzOjMwICI7ODsyODkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y" type="Real" array="False" size=""/>
+            <declare name="q" type="Integer" array="False" size=""/>
+            <output expression="&quot;Immetti coordinata x&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Immetti coordinata y&quot;" newline="True"/>
+            <input variable="y"/>
+            <if expression="x==0 &amp;&amp; y==0">
+                <then>
+                    <output expression="&quot;origine del piano cartesiano&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="x&gt;0 &amp;&amp; y&gt;0">
+                        <then>
+                            <assign variable="q" expression="1"/>
+                        </then>
+                        <else>
+                            <if expression="x&lt;0 &amp;&amp; y&gt;0">
+                                <then>
+                                    <assign variable="q" expression="2"/>
+                                </then>
+                                <else>
+                                    <if expression="x&lt;0 &amp;&amp; y&lt;0">
+                                        <then>
+                                            <assign variable="q" expression="3"/>
+                                        </then>
+                                        <else>
+                                            <assign variable="q" expression="4"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                    <output expression="&quot;Il punto si trova nel quadrante&quot;" newline="True"/>
+                    <output expression="q" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
