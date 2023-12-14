@@ -13,3 +13,4 @@ c++ coding for beginners
 
 ## Altri
 - [Esercizio07](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio07) Pari o dispari
+- [Esercizio08](https://github.com/scatanese/Cpp-Course/tree/main/Esercizio08) Piano cartesiano
