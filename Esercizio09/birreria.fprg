@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Salvo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-20 11:40:40 "/>
+        <attribute name="created" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjMtMTItMTc7IjExOjMzOjIxICI7Mjc0Mg=="/>
+        <attribute name="edited" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjMtMTItMjA7IjExOjQwOjQwICI7MTc7Mjg5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="conto, prezzobirra, spesa1, spesa2, spesa3" type="Real" array="False" size=""/>
+            <declare name="birre1, birre2, birre3" type="Integer" array="False" size=""/>
+            <output expression="&quot;inserisci le birre prese dal primo amico&quot;" newline="True"/>
+            <input variable="birre1"/>
+            <output expression="&quot;inserisci le birre prese dal secondo amico&quot;" newline="True"/>
+            <input variable="birre2"/>
+            <output expression="&quot;inserisci le birre prese dal terzo amico&quot;" newline="True"/>
+            <input variable="birre3"/>
+            <output expression="&quot;inserisci il conto &quot;" newline="True"/>
+            <input variable="conto"/>
+            <assign variable="prezzobirra" expression="conto/(birre1+birre2+birre3)"/>
+            <assign variable="spesa1" expression="prezzobirra*birre1"/>
+            <assign variable="spesa2" expression="prezzobirra*birre2"/>
+            <assign variable="spesa3" expression="prezzobirra*birre3"/>
+            <output expression="&quot;prezzo di una birra&quot; &amp; prezzobirra" newline="True"/>
+            <output expression="&quot;spesa prima del riparto&quot;" newline="True"/>
+            <output expression="&quot;primo amico: &quot; &amp; spesa1" newline="True"/>
+            <output expression="&quot;secondo amico: &quot; &amp; spesa2" newline="True"/>
+            <output expression="&quot; terzo amico: &quot; &amp; spesa3" newline="True"/>
+            <if expression="birre1==1 &amp;&amp; birre2&gt;1 &amp;&amp; birre3&gt;1">
+                <then>
+                    <assign variable="spesa2" expression="spesa2+(spesa1/2)"/>
+                    <assign variable="spesa3" expression="spesa3+(spesa1/2)"/>
+                    <output expression="&quot;il conto viene pagato dal secondo e dal terzo amico&quot;" newline="True"/>
+                    <output expression="&quot;spesa secondo amico: &quot; &amp; spesa2" newline="True"/>
+                    <output expression="&quot;spesa terzo amico: &quot; &amp; spesa3" newline="True"/>
+                </then>
+                <else>
+                    <if expression="birre1&gt;1 &amp;&amp; birre2==1 &amp;&amp; birre3&gt;1">
+                        <then>
+                            <assign variable="spesa1" expression="spesa1+(spesa2/2)"/>
+                            <assign variable="spesa3" expression="spesa3+(spesa2/2)"/>
+                            <output expression="&quot;il conto viene pagato dal prime e dal terzo amico&quot;" newline="True"/>
+                            <output expression="&quot;spesa del primo amico&quot; &amp; spesa1" newline="True"/>
+                            <output expression="&quot;spesa terzo amico&quot; &amp; spesa3" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="birre1&gt;1 &amp;&amp; birre2&gt;1 &amp;&amp; birre3==1">
+                                <then>
+                                    <assign variable="spesa1" expression="spesa1+(spesa3/2)"/>
+                                    <assign variable="spesa2" expression="spesa2+(spesa3/2)"/>
+                                    <output expression="&quot;il conto viene pagato dal primo e dal secondo amico&quot;" newline="True"/>
+                                    <output expression="&quot;spesa del primo amico&quot; &amp; spesa1" newline="True"/>
+                                    <output expression="&quot;spesa secondo amico&quot; &amp; spesa2" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="birre1==1 &amp;&amp; birre2==1 &amp;&amp; birre3&gt;1">
+                                        <then>
+                                            <output expression="&quot;il conto viene pagato dal terzo amico&quot; &amp; conto" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="birre1&gt;1 &amp;&amp; birre2==1 &amp;&amp; birre3==1">
+                                                <then>
+                                                    <output expression="&quot;il conto viene pagato dal primo amico&quot; &amp; conto" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="birre1==1 &amp;&amp; birre2&gt;1 &amp;&amp; birre3==1">
+                                                        <then>
+                                                            <output expression="&quot;il conto viene pagato dal secondo amico&quot; &amp; conto" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="(birre1==1 &amp;&amp; birre2==1 &amp;&amp; birre3==1) || (birre1&gt;1 &amp;&amp; birre2&gt;1 &amp;&amp; birre3&gt;1)">
+                                                                <then>
+                                                                    <output expression="&quot;ogni amico paga la propria birra&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="birre1==0 || birre2==0 || birre3==0">
+                                                                        <then>
+                                                                            <output expression="&quot;uno o pi&#249; amici non ha consumato birra. Ogni amico paga per se&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else/>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
