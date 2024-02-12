@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Salvo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-07 09:37:42 "/>
+        <attribute name="created" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDItMDc7IjA4OjU5OjAyICI7Mjc1NA=="/>
+        <attribute name="edited" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDItMDc7IjA5OjM3OjQyICI7NzsyODY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i" type="Integer" array="False" size=""/>
+            <declare name="temperatura, sottozero, media" type="Real" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <assign variable="media" expression="0"/>
+            <assign variable="sottozero" expression="0"/>
+            <output expression="&quot;Immetti numero di citta': &quot;" newline="True"/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <output expression="&quot;Immetti temperatura citta' &quot; &amp;  i" newline="True"/>
+                <input variable="temperatura"/>
+                <if expression="temperatura &lt; 0">
+                    <then>
+                        <assign variable="sottozero" expression="sottozero + 1"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="media" expression="media + temperatura"/>
+            </for>
+            <assign variable="media" expression="media / n"/>
+            <output expression="&quot;Numero di citta' con temperature sotto lo zerro: &quot; &amp; sottozero" newline="True"/>
+            <output expression="&quot;Media delle temperature: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

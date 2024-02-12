@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Salvo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-07 10:04:21 "/>
+        <attribute name="created" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDItMDc7IjA4OjU5OjAyICI7Mjc1NA=="/>
+        <attribute name="edited" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDItMDc7IjEwOjA0OjIxICI7MTU7Mjg5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, inrange" type="Integer" array="False" size=""/>
+            <declare name="voto, media" type="Real" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <assign variable="inrange" expression="0"/>
+            <assign variable="media" expression="0"/>
+            <output expression="&quot;Immetti numero di materie: &quot;" newline="True"/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <output expression="&quot;Immetti voto materia &quot; &amp;  i" newline="True"/>
+                <input variable="voto"/>
+                <if expression="voto &gt;= 3 || voto &lt;= 9">
+                    <then>
+                        <assign variable="inrange" expression="inrange + 1"/>
+                        <assign variable="media" expression="media + voto"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <assign variable="media" expression="media / inrange"/>
+            <output expression="&quot;Media dei voti: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
