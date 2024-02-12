@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Salvo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-07 10:59:58 "/>
+        <attribute name="created" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDEtMDc7IjEwOjIzOjE5ICI7Mjc0NQ=="/>
+        <attribute name="edited" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDEtMDc7IjEwOjU5OjU4ICI7MTsyODY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="prezzo, contanti" type="Real" array="False" size=""/>
+            <output expression="&quot;Immetti prezzo di un oggetto: &quot;" newline="True"/>
+            <input variable="prezzo"/>
+            <output expression="&quot;Immetti contanti disponibili nel borsello: &quot;" newline="True"/>
+            <input variable="contanti"/>
+            <if expression="contanti&gt;=prezzo">
+                <then>
+                    <output expression="&quot;E' possibile acquistare l'oggetto, Nel borsello restano euro: &quot; &amp; (contanti-prezzo)" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Non &#232; possibile acquistare l'oggetto!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

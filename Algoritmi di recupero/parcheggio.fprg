@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Salvo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-07 12:08:40 "/>
+        <attribute name="created" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDEtMDc7IjExOjM5OjU3ICI7Mjc1NQ=="/>
+        <attribute name="edited" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDEtMDc7IjEyOjA4OjQwICI7NjsyODU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="totale" type="Real" array="False" size=""/>
+            <declare name="ore" type="Integer" array="False" size=""/>
+            <assign variable="totale" expression="2"/>
+            <output expression="&quot;Immetti durata della sosta (ore): &quot;" newline="True"/>
+            <input variable="ore"/>
+            <if expression="ore &gt; 1">
+                <then>
+                    <assign variable="totale" expression="totale + (ore-1)* 1.5"/>
+                    <output expression="&quot;Prima ora (euro): &quot; &amp; 2" newline="True"/>
+                    <output expression="&quot;Ore successive alla prima (euro): &quot; &amp; (ore-1) *1.5" newline="True"/>
+                    <output expression="&quot;Totale da pagare (euro): &quot; &amp; totale" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Sosta prima ora (euro): &quot; &amp; totale" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

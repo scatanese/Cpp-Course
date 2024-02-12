@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Salvo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-07 11:32:53 "/>
+        <attribute name="created" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDEtMDc7IjExOjAwOjAyICI7MjczMw=="/>
+        <attribute name="edited" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDEtMDc7IjExOjMyOjUzICI7OTsyODYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="costomateriale, spesatotale" type="Real" array="False" size=""/>
+            <declare name="orelavoro" type="Integer" array="False" size=""/>
+            <output expression="&quot;Immetti costo del materiale (euro): &quot;" newline="False"/>
+            <input variable="costomateriale"/>
+            <output expression="&quot;Immetti ore lavoro: &quot;" newline="False"/>
+            <input variable="orelavoro"/>
+            <output expression="&quot;costo del lavoro (euro):  &quot; &amp; orelavoro*40" newline="True"/>
+            <assign variable="spesatotale" expression="orelavoro * 40 + costomateriale"/>
+            <if expression="spesatotale &lt;= 100">
+                <then>
+                    <output expression="&quot;Spesa: &quot; &amp; spesatotale" newline="True"/>
+                    <output expression="&quot;Il conto da pagare e' di euro 100&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;La spesa totale ammonta a euro: &quot; &amp; spesatotale" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

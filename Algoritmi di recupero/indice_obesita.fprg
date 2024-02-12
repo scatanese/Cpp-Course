@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Salvo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-09 06:49:51 "/>
+        <attribute name="created" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDEtMDc7IjEyOjA5OjAzICI7Mjc0NA=="/>
+        <attribute name="edited" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDEtMDk7IjA2OjQ5OjUxICI7MjA7MjkxMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="peso, altezza, indice, k" type="Real" array="False" size=""/>
+            <declare name="i, conta" type="Integer" array="False" size=""/>
+            <assign variable="conta" expression="0"/>
+            <output expression="&quot;Immetti limite indice obesit&#224; (K): &quot;" newline="True"/>
+            <input variable="k"/>
+            <for variable="i" start="1" end="5" direction="inc" step="1">
+                <output expression="&quot;Immetti il peso della &quot; &amp; i &amp; &quot; persona (Kg): &quot;" newline="False"/>
+                <input variable="peso"/>
+                <output expression="&quot;Immetti altezza della &quot; &amp; i &amp; &quot; persona (cm): &quot;" newline="False"/>
+                <input variable="altezza"/>
+                <assign variable="indice" expression="peso/altezza"/>
+                <output expression="&quot;Indice di obesita' :&quot; &amp; indice" newline="True"/>
+                <if expression="indice&gt;k">
+                    <then>
+                        <assign variable="conta" expression="conta + 1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Numero di persone che superano l'indice K di obesita'; &quot; &amp; conta" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

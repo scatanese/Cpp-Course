@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Salvo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-07 09:04:34 "/>
+        <attribute name="created" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDEtMDc7IjA3OjI5OjI4ICI7Mjc1Nw=="/>
+        <attribute name="edited" value="U2Fsdm87REVTS1RPUC1MTjA2SFExOzIwMjQtMDEtMDc7IjA5OjA0OjM0ICI7NjsyODYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="qbase, qaccessoria, qtotale, superfice, agevolazione" type="Real" array="False" size=""/>
+            <declare name="nfigli" type="Integer" array="False" size=""/>
+            <output expression="&quot;Immetti quota base: &quot;" newline="False"/>
+            <input variable="qbase"/>
+            <output expression="&quot;Immetti superfice appartamento (mq): &quot;" newline="False"/>
+            <input variable="superfice"/>
+            <output expression="&quot;Immetti numero di figli: &quot;" newline="False"/>
+            <input variable="nfigli"/>
+            <assign variable="qaccessoria" expression="superfice*5"/>
+            <output expression="&quot;Quota accessoria: &quot; &amp; qaccessoria" newline="True"/>
+            <assign variable="qtotale" expression="qbase+qaccessoria"/>
+            <if expression="nfigli&gt;0">
+                <then>
+                    <assign variable="agevolazione" expression="nfigli*10"/>
+                    <output expression="&quot;agevolazione euro:&quot; &amp; agevolazione" newline="True"/>
+                    <assign variable="qtotale" expression="qtotale-agevolazione"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Quota complessiva euro: &quot; &amp; qtotale" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
